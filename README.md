@@ -4,10 +4,12 @@ This repository showcases SBOM support in Oracle GraalVM Native Image and Spring
 
 Build:
 
-``shell
+```shell
 mvn -Pnative native:compile
 ```
+
 Run:
+
 
 ```shell
 ./target/demo
