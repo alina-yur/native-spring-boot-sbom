@@ -20,3 +20,9 @@ Curl the Actuator SBOM endpoint to retrieve the SBOM:
 ```shell
 curl http://localhost:8080/actuator/sbom/native-image
 ```
+
+You can also feed it into [syft](https://github.com/anchore/syft):
+
+```shell
+curl http://localhost:8080/actuator/sbom/native-image | syft
+```
