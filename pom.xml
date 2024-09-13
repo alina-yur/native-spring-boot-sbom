@@ -56,6 +56,7 @@
 					<buildArgs>
 						<buildArg>--enable-sbom=classpath,embed</buildArg>
 						<buildArg>--emit=build-report</buildArg>
+						<buildArg>-Ob</buildArg>
 					</buildArgs>
 				</configuration>
 			</plugin>
