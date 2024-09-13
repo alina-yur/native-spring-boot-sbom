@@ -21,8 +21,8 @@ Curl the Actuator SBOM endpoint to retrieve the SBOM:
 curl http://localhost:8080/actuator/sbom/native-image
 ```
 
-You can also feed it into [syft](https://github.com/anchore/syft):
+You can explore scan the executable with your scanner of choice, such as [syft](https://github.com/anchore/syft):
 
 ```shell
-curl http://localhost:8080/actuator/sbom/native-image | syft
+syft ./target/demo
 ```
